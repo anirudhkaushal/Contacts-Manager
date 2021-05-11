@@ -1,0 +1,99 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #9dbeb9;
+}
+
+.inputs {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputs input {
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  margin: 10px;
+  padding-left: 10px;
+  border: 4px solid #194350;
+  border-radius: 7px;
+  background-color: #eee;
+}
+
+.inputs button {
+  border: none;
+  background-color: #194350;
+  color: white;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.inputs button:hover {
+  background-color: #eee;
+  color: black;
+  border: 4px solid #194350;
+}
+
+.listOfFriends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.friendContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.friend {
+  width: 600px;
+  height: 60px;
+  background-color: #194350;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.friend h3 {
+  margin-left: 15px;
+}
+
+.friendContainer button {
+  height: 60px;
+  width: 80px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  font-weight: bold;
+  border: 5px solid #194350;
+  cursor: pointer;
+}
+
+.friendContainer button:hover {
+  background-color: #194350;
+  color: white;
+
+}
+
+#removeBorder {
+  width: 40px;
+  border-left: none;
+}
+
